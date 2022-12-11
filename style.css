@@ -1,4 +1,115 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f9fd;
+}
+
+.conatiner {
+  width: 90vw;
+  max-width: 62.5em;
+  border: 1px solid;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.flashCard {
+  display: flex;
+  padding: 20px 100px;
+  justify-content: space-between;
+}
+
+.flashCard h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #545150;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.flashCard .addFlashCard {
+  background-color: #ed762c;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+#cardContainer {
+  border: 1px solid black;
+}
+
+.flashCardQuestion {
+  width: 30vw;
+  max-width: 62.5em;
+  border: 1px solid;
+  position: relative;
+  margin: auto;
+  display: none;
+  margin-top: 20px;
+}
+
+.newFlashQuestion {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.questionBlock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question {
+  margin-left: 3px;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+i {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #ed762c;
+}
+
+.answer {
+  margin-left: 3px;
+  margin-bottom: 6px;
+  font-weight: 400;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #000;
+  margin-left: 3px;
+  font-weight: 200;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px #000;
+}
+
+.flashCardBtn {
+  margin-left: 13rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#createBtn {
+  background-color: #ed762c;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 11px 22px;
+  border-radius: 8px;
 }
