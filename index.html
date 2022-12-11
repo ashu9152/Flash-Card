@@ -22,11 +22,12 @@
       <div id="cardContainer"></div>
     </div>
 
+    <!-- Question Card -->
     <div class="flashCardQuestion">
       <div class="newFlashQuestion">
         <div class="questionBlock">
           <h2 class="question">Question:</h2>
-          <i class="fa-sharp fa-solid fa-xmark"></i>
+          <i id="closeBtn" class="fa-sharp fa-solid fa-xmark"></i>
         </div>
         <textarea
           id="questionInput"
@@ -49,6 +50,21 @@
       </div>
       <div class="flashCardBtn">
         <button id="createBtn">Create card</button>
+      </div>
+    </div>
+
+    <!-- Flash Card -->
+    <div class="flashBlock">
+      <div class="cardBlock">
+        <div class="questionAnswer">
+          <h4 class="questionValue">Distance between earth annd moon?</h4>
+          <h4 class="hideValue">Show/Hide Value</h4>
+          <h4 class="answerValue">12345678</h4>
+        </div>
+        <div class="buttonBlock">
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn">Delete</button>
+        </div>
       </div>
     </div>
   </body>
