@@ -54,7 +54,7 @@ button {
   border: 1px solid;
   position: relative;
   margin: auto;
-  /* display: none; */
+  display: none;
   margin-top: 20px;
 }
 
@@ -116,8 +116,7 @@ textarea {
 }
 
 .flashBlock {
-  display: flex;
-  justify-content: space-between;
+  display: none;
 }
 
 .cardBlock {
@@ -144,12 +143,12 @@ textarea {
 
 .hideValue {
   margin-top: 32px;
+  cursor: pointer;
 }
 
 .answerValue {
   font-size: 20px;
   font-weight: 500;
-  display: none;
 }
 
 .buttonBlock {

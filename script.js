@@ -1,15 +1,20 @@
 const addFlashCard = document.querySelector(".addFlashCard");
-const addQuestion = document.querySelector("");
-const addAnswer = document.querySelector("");
-const updateCard = document.querySelector("");
-const deleteCard = document.querySelector("");
-const closeBtn = document.querySelector("closeBtn");
+
 const flashCardQuestion = document.querySelector(".flashCardQuestion");
+const closeBtn = document.querySelector("#closeBtn");
+const createCard = document.querySelector("#createBtn");
 
-// addFlashCard.addEventListener("click", () => {
-//   flashCardQuestion.style.display = "block";
-// });
+const flashBlock = document.querySelector(".flashBlock");
 
-// closeBtn.addEventListener("click", () => {
-//   flashCardQuestion.style.display = "none";
-// });
+addFlashCard.addEventListener("click", () => {
+  flashCardQuestion.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  flashCardQuestion.style.display = "none";
+});
+
+createCard.addEventListener("click", () => {
+  flashBlock.style.display = "flex";
+  flashCardQuestion.style.display = "none";
+});
