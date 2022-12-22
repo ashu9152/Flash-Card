@@ -122,7 +122,7 @@ textarea {
 .cardBlock {
   width: 13vw;
   height: 11vw;
-  display: flex;
+  display: block;
   flex-direction: column;
   max-width: 22.5em;
   border: 1px solid;
@@ -151,17 +151,19 @@ textarea {
   font-weight: 500;
 }
 
-.buttonBlock {
+/* .buttonBlock {
   display: flex;
   justify-content: space-around;
   margin-bottom: 4px;
-}
+} */
 
 .editBtn {
   background-color: #ed762c;
   color: #ffffff;
   padding: 8px 22px;
   font-size: 14px;
+  margin-left: 45px;
+  margin-top: 5px;
   border-radius: 4px;
 }
 
@@ -170,5 +172,6 @@ textarea {
   color: #ffffff;
   padding: 8px 16px;
   font-size: 14px;
+  margin-left: 5px;
   border-radius: 4px;
 }

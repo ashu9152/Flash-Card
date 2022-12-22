@@ -14,6 +14,7 @@ addFlashCard.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
   flashCardQuestion.style.display = "none";
+  flashBlock.style.display = "flex";
 });
 
 createCard.addEventListener("click", () => {
