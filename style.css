@@ -98,6 +98,7 @@ textarea {
   font-weight: 200;
   overflow: hidden;
   box-shadow: 1px 1px 1px #000;
+  resize: none;
 }
 
 .flashCardBtn {
@@ -123,32 +124,35 @@ textarea {
   width: 13vw;
   height: 11vw;
   display: block;
-  flex-direction: column;
   max-width: 22.5em;
   border: 1px solid;
   margin: auto;
   margin-top: 20px;
-  justify-content: space-between;
   border-radius: 8px;
 }
 
-.questionAnswer {
+/* .questionAnswer {
   margin: 10px;
-}
+} */
 
 .questionValue {
   font-size: 20px;
   font-weight: 500;
+  margin: 10px;
 }
 
 .hideValue {
   margin-top: 32px;
   cursor: pointer;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .answerValue {
   font-size: 20px;
   font-weight: 500;
+  margin: 10px;
+  display: none;
 }
 
 /* .buttonBlock {
@@ -163,7 +167,7 @@ textarea {
   padding: 8px 22px;
   font-size: 14px;
   margin-left: 45px;
-  margin-top: 5px;
+  margin-top: 20px;
   border-radius: 4px;
 }
 
@@ -172,6 +176,6 @@ textarea {
   color: #ffffff;
   padding: 8px 16px;
   font-size: 14px;
-  margin-left: 5px;
+  margin-left: 15px;
   border-radius: 4px;
 }
